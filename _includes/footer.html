@@ -5,6 +5,10 @@
 
           <div class="col-xs-12 col-md-2 col-md-offset-1">
             <p class="text-muted text-left ">{{ site.footer_text }}</p>
+            {% if site.enable_contact == true %}
+            {% include contact.html %}
+            {% include contact-modal.html %}
+            {% endif %}
           </div>
 
           <div class="col-xs-12 col-md-2 col-md-offset-1">
