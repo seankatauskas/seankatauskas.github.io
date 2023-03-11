@@ -123,18 +123,26 @@ button.btn, input.btn {
 
 .flex-container {
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
-.flex-container img {
-  flex-basis: 50%;
+.image {
+  flex: 0 0 40%;
+  margin-right: 20px;
+}
+
+.image img {
+  width: 100%;
   height: auto;
 }
 
-.flex-container p {
-  flex-basis: 50%;
-  margin-left: 20px;
+.text {
+  flex: 1;
+}
+
+.text p {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 
