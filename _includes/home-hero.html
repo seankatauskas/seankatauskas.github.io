@@ -6,30 +6,25 @@
 
       <div class="hero-container">
 
+        
+
         <div class="hero-content">
-
           {% if site.title != '' %}
-          <h1 class="text-center">{{site.title}}</h1>
+          <h2>{{site.title}}</h2>
           {% endif %}
-        </div>
+          
+          <img class="image" src="{{ site.url }}/img/profilepic.JPG" alt="Profile Picture">
 
-        <div class="hero-content flex-container">
           {% if site.description != '' or site.enable_contact == true %}
           {% endif %}
-
-
-          <div class="flex-container">
-            <div class="image">
-              <img src="{{ site.url }}img/profilepic.JPG" alt="Profile Picture">
-            </div>
-            <div class="text">
-              <p>
-                {% if site.description != '' %}
-                {{site.description}}
-                {% endif %}
-              </p>
-            </div>
-          </div>
+            
+          <p>
+            {% if site.description != '' %}
+            {{site.description}}
+            {% endif %}
+          </p>
+            
+        </div>
           
 
 

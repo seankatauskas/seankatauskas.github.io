@@ -25,6 +25,18 @@ $secondary: #FF7B7B;
 /*--------------------------------------------------------------
 	1.0 Defaults
 --------------------------------------------------------------*/
+.navbar {
+  background-color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+}
+
+.navbar-nav .nav-link.active {
+  border: none;
+  outline: none;
+}
+
+
 
 @media (min-width: 1200px) {
   .container {
@@ -33,7 +45,7 @@ $secondary: #FF7B7B;
 }
 
 body {
-  background-color: #e9edf0;
+  background-color: #ffffff;
   @extend %opensans;
   -webkit-font-smoothing: antialiased;
 }
@@ -50,12 +62,13 @@ article {
 p {
   line-height: 1.8;
   font-size: 1.3em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 a {
   @include transition(color .2s ease-in-out);
   &:hover {
-    color: #FF5B33;
+    color: #ff4646;
     text-decoration: none;
   }
 }
@@ -88,9 +101,9 @@ button.btn, input.btn {
 }
 
 .main {
-  background-color: white;
-  border-left: solid 1px #cedfea;
-  border-right: solid 1px #cedfea;
+  // background-color: white;
+  // border-left: solid 1px #ffffff;
+  // border-right: solid 1px #ffffff;
   &.container {
     padding: 0;
   }
@@ -112,7 +125,7 @@ button.btn, input.btn {
 	2.0 Home Hero
 --------------------------------------------------------------*/
 .hero-container {
-  margin: 10em 0 9em 0;
+  margin: 8em 0 9em 0;
   @include bp-xsmall {
     margin: 5em 0 5em 0;
   }
@@ -127,8 +140,8 @@ button.btn, input.btn {
 }
 
 .image {
-  flex: 0 0 40%;
-  margin-right: 20px;
+  width: 25%;
+  
 }
 
 .image img {
@@ -159,11 +172,11 @@ button.btn, input.btn {
   @include bp-xsmall {
     width: 100%;
   }
-  h1 {
-    font-size: 48px;
+  h1, h2 {
+    font-size: 36px;
   }
   p {
-    margin: 2em 0 4em 0;
+    margin: 1em 0 4em 0;
   }
   .hero-buttons {
     margin: 0 auto;

@@ -13,9 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Hello. I'm Sean Katauskas"
+title: "Hi, I'm Sean."
 email: 'seankatauskas1@gmail.com'
-description: "I'm a third year student at the University of Virginia studying CS interested in machine learning and generative art."
+description: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a third-year student at the University of Virginia, pursuing a degree in Computer Science, I am deeply fascinated by the field of machine learning and generative art. Witnessing firsthand how Artificial Intelligence is expanding our understanding of creativity and improving the quality of life for everyone through significantly reducing the cost of intelligence is truly inspiring. 
+
+My passion for empowering learning and decision-making has fueled my desire to continue contributing to innovative projects in this domain. I am committed to leveraging my technical expertise and developed perspective to create solutions with meaningful impact.
+
+ I look forward to collaborating with like-minded individuals and organizations to push the boundaries of what is possible with Artificial Intelligence, and ultimately drive positive change in our world."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://seankatauskas.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: 'seankatauskas'
