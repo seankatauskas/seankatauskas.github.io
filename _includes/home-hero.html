@@ -14,19 +14,27 @@
         </div>
 
         <div class="hero-content flex-container">
-
           {% if site.description != '' or site.enable_contact == true %}
-
-          <img src="{{ site.url }}img/profilepic.JPG" alt="Profile Picture">
-
-
-          <p>
-            {% if site.description != '' %}
-            {{site.description}}
-            {% endif %}
-          </p>
-
           {% endif %}
+
+
+          <div class="flex-container">
+            <div class="image">
+              <img src="{{ site.url }}img/profilepic.JPG" alt="Profile Picture">
+            </div>
+            <div class="text">
+              <p>
+                {% if site.description != '' %}
+                {{site.description}}
+                {% endif %}
+              </p>
+            </div>
+          </div>
+          
+
+
+
+          
 
           <div class="hero-buttons">
 
