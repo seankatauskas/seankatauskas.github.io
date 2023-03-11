@@ -121,12 +121,22 @@ button.btn, input.btn {
   }
 }
 
-.image {
-  width: 50%;
-  max-width: 50%;
-  height: auto;
-  margin-right: 20px;
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
+
+.flex-container img {
+  flex-basis: 50%;
+  height: auto;
+}
+
+.flex-container p {
+  flex-basis: 50%;
+  margin-left: 20px;
+}
+
 
 .hero-content {
   width: 60%;
