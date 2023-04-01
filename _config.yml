@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: "Hi, I'm Sean."
 email: 'seankatauskas1@gmail.com'
-description: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm currently a third-year Computer Science student at the University of Virginia, and I'm really into machine learning and generative art. It's exciting to see how AI is transforming our understanding of creativity and improving lives by making intelligence more accessible. I'm driven by a strong desire to contribute to innovative projects in this area, and I enjoy using my technical skills to tackle challenging problems.
-<br>
+description: "I'm currently a third-year Computer Science student at the University of Virginia, and I'm really into machine learning and generative art. It's exciting to see how AI is transforming our understanding of creativity and improving lives by making intelligence more accessible. I'm driven by a strong desire to contribute to innovative projects in this area, and I enjoy using my technical skills to tackle challenging problems.
+<br><br>
 I'm eager to work with others who share my passion for AI, and together, we can push the boundaries of what's possible and make a positive impact on the world. 
 "
 baseurl: "" # the subpath of your site, e.g. /blog
