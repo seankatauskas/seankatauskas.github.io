@@ -15,11 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 title: "Hi, I'm Sean."
 email: 'seankatauskas1@gmail.com'
-description: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a third-year student at the University of Virginia, pursuing a degree in Computer Science, I am deeply fascinated by the field of machine learning and generative art. Witnessing firsthand how Artificial Intelligence is expanding our understanding of creativity and improving the quality of life for everyone through significantly reducing the cost of intelligence is truly inspiring. 
-
-My passion for empowering learning and decision-making has fueled my desire to continue contributing to innovative projects in this domain. I am committed to leveraging my technical expertise and developed perspective to work on challenging problems with meaningful outcomes.
-
- I look forward to collaborating with like-minded individuals and organizations to push the boundaries of what is possible with Artificial Intelligence, and ultimately drive positive change in our world."
+description: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm currently a third-year Computer Science student at the University of Virginia, and I'm really into machine learning and generative art. It's exciting to see how AI is transforming our understanding of creativity and improving lives by making intelligence more accessible. I'm driven by a strong desire to contribute to innovative projects in this area, and I enjoy using my technical skills to tackle challenging problems.
+<br>
+I'm eager to work with others who share my passion for AI, and together, we can push the boundaries of what's possible and make a positive impact on the world. 
+"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.seankatauskas.xyz" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: 'seankatauskas'
