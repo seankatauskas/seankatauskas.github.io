@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Hi, I'm Sean!"
-email: 'seankatauskas1@gmail.com'
+email: 'sean@seankatauskas.xyz'
 description: "I'm currently a third-year Computer Science student at the University of Virginia, and I'm really into machine learning and generative art. 
 <br><br>
 It's exciting to see how AI is transforming our understanding of creativity and improving lives by making intelligence more accessible. I'm driven by a strong desire to contribute to innovative projects in this area, and I enjoy using my technical skills to tackle challenging problems.
